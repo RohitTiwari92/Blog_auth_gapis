@@ -8,7 +8,7 @@ using System.Web.Http;
 
 namespace Blog_auth.Controllers
 {
-    //[CustomAuthorizationFilter]
+    [CustomAuthorizationFilter]
     public class ValuesController : ApiController
     {
         // GET api/values
